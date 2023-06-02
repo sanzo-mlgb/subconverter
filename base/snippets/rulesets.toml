@@ -1,378 +1,30 @@
 [[rulesets]]
-group = "🔰 节点选择"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/Amazon.list"
-
-[[rulesets]]
-group = "🔰 节点选择"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/AmazonIp.list"
-
-[[rulesets]]
-group = "🔰 节点选择"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/Discord.list"
-
-[[rulesets]]
-group = "🔰 节点选择"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/Facebook.list"
-
-[[rulesets]]
-group = "🔰 节点选择"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/Instagram.list"
-
-[[rulesets]]
-group = "🔰 节点选择"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/Line.list"
-
-[[rulesets]]
-group = "🔰 节点选择"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/Pixiv.list"
-
-[[rulesets]]
-group = "🔰 节点选择"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/Reddit.list"
-
-[[rulesets]]
-group = "🔰 节点选择"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/Scholar.list"
-
-[[rulesets]]
-group = "🔰 节点选择"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/TopBlockedSites.list"
-
-[[rulesets]]
-group = "🔰 节点选择"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/Twitter.list"
-
-[[rulesets]]
-group = "🔰 节点选择"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/Whatsapp.list"
-
-[[rulesets]]
-group = "🔰 节点选择"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/Wikipedia.list"
-
-[[rulesets]]
-group = "🔰 节点选择"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/All4.list"
-
-[[rulesets]]
-group = "🔰 节点选择"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/Binance.list"
-
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/58.list"
-
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/360.list"
-
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/4399.list"
-
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/Alibaba.list"
-
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/Baidu.list"
-
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/CN.list"
-
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/DiDi.list"
-
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/GameDownload.list"
-
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/HuaWei.list"
-
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/Iflytek.list"
-
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/JD.list"
-
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/Kingsoft.list"
-
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/Marketing.list"
-
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/Meitu.list"
-
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/MI.list"
-
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/NetEase.list"
-
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/PublicDirectCDN.list"
-
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/RemoteDesktop.list"
-
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/Sina.list"
-
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/SohuSogo.list"
-
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/TapTap.list"
-
-
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/Tencent.list"
-
-
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/TencentLolm.list"
-
-
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/TencentVideo.list"
-
-
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/Vip.list"
-
-[[rulesets]]
 group = "🌍 国外媒体"
-ruleset = "rules/DivineEngine/Surge/Ruleset/StreamingMedia/Streaming.list"
-
-[[rulesets]]
-group = "🌍 国外媒体"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/ABC.list"
-
-[[rulesets]]
-group = "🌍 国外媒体"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/BBC.list"
-
-[[rulesets]]
-group = "🌍 国外媒体"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/BBCiPlayer.list"
-
-[[rulesets]]
-group = "🌍 国外媒体"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/DiscoveryPlus.list"
-
-[[rulesets]]
-group = "🌍 国外媒体"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/DisneyPlus.list"
-
-[[rulesets]]
-group = "🌍 国外媒体"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/FoxNow.list"
-
-[[rulesets]]
-group = "🌍 国外媒体"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/HBO.list"
-
-[[rulesets]]
-group = "🌍 国外媒体"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/HBO_GO_HKG.list"
-
-[[rulesets]]
-group = "🌍 国外媒体"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/Hulu.list"
-
-[[rulesets]]
-group = "🌍 国外媒体"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/HuluJapan.list"
-
-[[rulesets]]
-group = "🌍 国外媒体"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/ITV.list"
-
-[[rulesets]]
-group = "🌍 国外媒体"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/Netflix.list"
-
-[[rulesets]]
-group = "🌍 国外媒体"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/NetflixIP.list"
-
-[[rulesets]]
-group = "🌍 国外媒体"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/Niconico.list"
-
-[[rulesets]]
-group = "🌍 国外媒体"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/Porn.list"
-
-[[rulesets]]
-group = "🌍 国外媒体"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/Pornhub.list"
-
-[[rulesets]]
-group = "🌍 国外媒体"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/TikTok.list"
-
-[[rulesets]]
-group = "🌍 国外媒体"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/Twitch.list"
-
-[[rulesets]]
-group = "🌍 国外媒体"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/YouTube.list"
-
-[[rulesets]]
-group = "🌍 国外媒体"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/YouTubeMusic.list"
+ruleset = "rules/gwmt.list"
 
 [[rulesets]]
 group = "🇨🇳 国内媒体"
-ruleset = "rules/lhie1/Surge/Surge 3/Provider/Media/iQiyi.list"
-
-[[rulesets]]
-group = "🇨🇳 国内媒体"
-ruleset = "rules/lhie1/Surge/Surge 3/Provider/Media/Letv.list"
-
-[[rulesets]]
-group = "🇨🇳 国内媒体"
-ruleset = "rules/lhie1/Surge/Surge 3/Provider/Media/MOO.list"
-
-[[rulesets]]
-group = "🇨🇳 国内媒体"
-ruleset = "rules/lhie1/Surge/Surge 3/Provider/Media/Tencent Video.list"
-
-[[rulesets]]
-group = "🇨🇳 国内媒体"
-ruleset = "rules/lhie1/Surge/Surge 3/Provider/Media/Youku.list"
-
-[[rulesets]]
-group = "🇨🇳 国内媒体"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/ByteDance.list"
-
-[[rulesets]]
-group = "🇨🇳 国内媒体"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/CCTV.list"
-
-[[rulesets]]
-group = "🇨🇳 国内媒体"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/ChinaNet.list"
-
-[[rulesets]]
-group = "🇨🇳 国内媒体"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/Douyu.list"
-
-[[rulesets]]
-group = "🇨🇳 国内媒体"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/HWTV.list"
-
-[[rulesets]]
-group = "🇨🇳 国内媒体"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/Iqiyi.list"
-
-[[rulesets]]
-group = "🇨🇳 国内媒体"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/IqiyiHMT.list"
-
-[[rulesets]]
-group = "🇨🇳 国内媒体"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/Kuaishou.list"
-
-[[rulesets]]
-group = "🇨🇳 国内媒体"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/LeTV.list"
-
-[[rulesets]]
-group = "🇨🇳 国内媒体"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/MGTVTV.list"
-
-[[rulesets]]
-group = "🇨🇳 国内媒体"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/MOO.list"
-
-[[rulesets]]
-group = "🇨🇳 国内媒体"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/NetEaseMusic.list"
-
-[[rulesets]]
-group = "🇨🇳 国内媒体"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/PPTVPPLive.list"
-
-[[rulesets]]
-group = "🇨🇳 国内媒体"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/TencentVideo.list"
-
-[[rulesets]]
-group = "🇨🇳 国内媒体"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/Xunlei.list"
-
-[[rulesets]]
-group = "🇨🇳 国内媒体"
-ruleset = "rules/ACL4SSR/Clash/Ruleset/Youku.list"
+ruleset = "rules/gnmt.list"
 
 [[rulesets]]
 group = "📺 BILIBILI"
 ruleset = "rules/lhie1/Surge/Surge 3/Provider/Media/Bilibili.list"
 
 [[rulesets]]
-group = "🤖 ChatGPT'"
+group = "🤖 ChatGPT"
 ruleset = "rules/lhie1/Surge/Surge 3/Provider/ChatGPT.list"
 
 [[rulesets]]
 group = "🛑 全球拦截"
-ruleset = "rules/NobyDa/Surge/AdRule.list"
-
-[[rulesets]]
-group = "🛑 全球拦截"
-ruleset = "rules/DivineEngine/Surge/Ruleset/Guard/Hijacking.list"
-
-[[rulesets]]
-group = "🔰 节点选择"
-ruleset = "rules/DivineEngine/Surge/Ruleset/Global.list"
-
-[[rulesets]]
-group = "🔰 节点选择"
-ruleset = "rules/ACL4SSR/Clash/ProxyGFWlist.list"
-
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "[]GEOIP,CN"
+ruleset = "rules/qqlj.list"
 
 [[rulesets]]
 group = "Ⓜ 微软服务"
 ruleset = "rules/ACL4SSR/Clash/Ruleset/Microsoft.list"
 
 [[rulesets]]
-group = "🎯 全球直连"
-ruleset = "rules/NobyDa/Surge/Download.list"
-
-[[rulesets]]
 group = "🍎 苹果服务"
 ruleset = "rules/DivineEngine/Surge/Ruleset/Extra/Apple/Apple.list"
-
-[[rulesets]]
-group = "🎯 全球直连"
-ruleset = "rules/LocalAreaNetwork.list"
 
 [[rulesets]]
 group = "📲 电报信息"
@@ -380,8 +32,12 @@ ruleset = "rules/DivineEngine/Surge/Ruleset/Extra/Telegram/Telegram.list"
 
 [[rulesets]]
 group = "🎯 全球直连"
-ruleset = "rules/DivineEngine/Surge/Ruleset/Unbreak.list"
+ruleset = "rules/qqzl.list"
 
 [[rulesets]]
 group = "🎯 全球直连"
-ruleset = "rules/DivineEngine/Surge/Ruleset/China.list"
+ruleset = "[]GEOIP,CN"
+
+[[rulesets]]
+group = "🔰 节点选择"
+ruleset = "rules/jdxz.list"
