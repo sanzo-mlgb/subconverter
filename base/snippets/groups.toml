@@ -4,13 +4,6 @@ type = "select"
 rule = [".*"]
 
 [[custom_groups]]
-name = "♻️ 自动选择"
-type = "url-test"
-rule = [".*"]
-url = "http://www.gstatic.com/generate_204"
-interval = 300
-
-[[custom_groups]]
 name = "🎥 NETFLIX"
 type = "select"
 rule = [".*"]
