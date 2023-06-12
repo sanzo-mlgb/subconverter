@@ -1,10 +1,11 @@
 {% if request.target == "clash" or request.target == "clashr" %}
-
-port: {{ default(global.clash.http_port, "7890") }}
-socks-port: {{ default(global.clash.socks_port, "7891") }}
-allow-lan: {{ default(global.clash.allow_lan, "true") }}
+mixed-port: 7890
+port: 7891
+socks-port: 7892
+allow-lan: true
 mode: Rule
-log-level: {{ default(global.clash.log_level, "info") }}
+log-level: info
+secret: 'cisco123'
 external-controller: :9090
 {% if default(request.clash.dns, "") == "1" %}
 dns:
