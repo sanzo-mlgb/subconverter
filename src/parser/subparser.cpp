@@ -87,7 +87,7 @@ void vlessConstruct(Proxy &node, const std::string &group, const std::string &re
     node.EncryptMethod = cipher;
     node.TransferProtocol = net.empty() ? "tcp" : type=="http" ? "http": net;
     node.Edge = edge;
-    node.Flow = "xtls-rprx-vision";
+    node.Flow = flow;
     node.FakeType = type;
     node.TLSSecure = tls == "tls" || tls == "xtls" || tls == "reality";
     node.PublicKey = pbk;
