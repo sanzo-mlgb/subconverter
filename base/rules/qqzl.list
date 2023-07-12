@@ -493,6 +493,8 @@ IP-CIDR6,fc00::/7,no-resolve
 IP-CIDR6,fd00::/8,no-resolve
 IP-CIDR6,fe80::/10,no-resolve
 PROCESS-NAME,CrashReport.exe
+PROCESS-NAME,Battle.net.exe
+PROCESS-NAME,Agent.exe
 PROCESS-NAME,DownloadService
 PROCESS-NAME,DownloadService.exe
 PROCESS-NAME,DriverInstaller.exe
