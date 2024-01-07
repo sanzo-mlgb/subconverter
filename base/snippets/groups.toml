@@ -1,0 +1,59 @@
+[[custom_groups]]
+name = "🔰 节点选择"
+type = "select"
+rule = [".*"]
+
+[[custom_groups]]
+name = "🎥 NETFLIX"
+type = "select"
+rule = [".*"]
+
+[[custom_groups]]
+name = "📺 BILIBILI"
+type = "select"
+rule = ["[]🎯 全球直连","(台|hk|港|tw)",".*"]
+
+[[custom_groups]]
+name = "🤖 ChatGPT"
+type = "select"
+rule = [".*"]
+
+[[custom_groups]]
+name = "🌍 国外媒体"
+type = "select"
+rule = [".*"]
+
+[[custom_groups]]
+name = "🇨🇳 国内媒体"
+type = "select"
+rule = ["[]🎯 全球直连"]
+
+[[custom_groups]]
+name = "Ⓜ 微软服务"
+type = "select"
+rule = ["[]🎯 全球直连",".*"]
+
+[[custom_groups]]
+name = "📲 电报信息"
+type = "select"
+rule = [".*"]
+
+[[custom_groups]]
+name = "🍎 苹果服务"
+type = "select"
+rule = ["[]🎯 全球直连",".*"]
+
+[[custom_groups]]
+name = "🎯 全球直连"
+type = "select"
+rule = ["[]DIRECT"]
+
+[[custom_groups]]
+name = "🛑 全球拦截"
+type = "select"
+rule = ["[]REJECT", "[]DIRECT"]
+
+[[custom_groups]]
+name = "🐟 漏网之鱼"
+type = "select"
+rule = [".*"]
