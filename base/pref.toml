@@ -4,7 +4,7 @@ version = 1
 api_mode = false
 
 # Access token used for performing critical action through Web interface
-api_access_token = "password"
+api_access_token = "cisco123!"
 
 # Default URLs, used when no URL is provided in request, use "|" to separate multiple subscription links, supports local files/URL
 default_url = []
@@ -17,7 +17,7 @@ insert_url = [""]
 prepend_insert_url = true
 
 # Exclude nodes which remarks match the following patterns. Supports regular expression.
-exclude_remarks = ["(到期|剩余流量|时间|官网|产品)"]
+exclude_remarks = ["(重置|公告|官址|xeno|到期|剩余流量|时间|官网|产品)"]
 
 # Only include nodes which remarks match the following patterns. Supports regular expression.
 #include_remarks = ["V3.*港"]
@@ -113,7 +113,7 @@ replace = '$1:$2:$3:0:0:0'
 [node_pref]
 udp_flag = true
 tcp_fast_open_flag = false
-skip_cert_verify_flag = true
+skip_cert_verify_flag = false
 tls13_flag = false
 
 sort_flag = false
