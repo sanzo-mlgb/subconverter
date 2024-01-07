@@ -1,11 +1,24 @@
 {% if request.target == "clash" or request.target == "clashr" %}
-
-port: {{ default(global.clash.http_port, "7890") }}
-socks-port: {{ default(global.clash.socks_port, "7891") }}
-allow-lan: {{ default(global.clash.allow_lan, "true") }}
+mixed-port: 7890
+port: 7891
+socks-port: 7892
+allow-lan: true
 mode: Rule
-log-level: {{ default(global.clash.log_level, "info") }}
+log-level: info
+secret: 'cisco123'
 external-controller: :9090
+experimental:
+  ignore-resolve-fail: true
+dns:
+  enable: true
+  ipv6: false
+  default-nameserver: [223.5.5.5, 114.114.114.114]
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  use-hosts: true
+  nameserver: ['https://dns.alidns.com/dns-query', 'https://doh.pub/dns-query']
+  fallback: ['tls://1.0.0.1:853', 'tls://dns.google:853']
+  fallback-filter: { geoip: true, geoip-code: CN, ipcidr: [240.0.0.0/4] }
 {% if default(request.clash.dns, "") == "1" %}
 dns:
   enable: true
