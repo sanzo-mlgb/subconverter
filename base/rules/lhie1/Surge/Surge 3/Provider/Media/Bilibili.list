@@ -13,3 +13,8 @@ DOMAIN,upos-hz-mirrorakam.akamaized.net
 // Hong Kong, Macau, Taiwan
 USER-AGENT,bili-inter*
 DOMAIN,apiintl.biliapi.net
+DOMAIN-SUFFIX,biliintl.com
+DOMAIN,p.bstarstatic.com
+DOMAIN,p-bstarstatic.akamaized.net
+DOMAIN,upos-bstar-mirrorakam.akamaized.net
+DOMAIN,upos-bstar1-mirrorakam.akamaized.net
