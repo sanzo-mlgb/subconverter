@@ -7,18 +7,29 @@ mode: Rule
 log-level: info
 secret: 'cisco123'
 external-controller: :9090
-experimental:
-  ignore-resolve-fail: true
 dns:
   enable: true
+  prefer-h3: true
   ipv6: false
-  default-nameserver: [223.5.5.5, 114.114.114.114]
+  default-nameserver:
+    - tls://223.5.5.5:853
+	- tls://120.53.53.53:853
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   use-hosts: true
-  nameserver: ['https://dns.alidns.com/dns-query', 'https://doh.pub/dns-query']
-  fallback: ['tls://1.0.0.1:853', 'tls://dns.google:853']
-  fallback-filter: { geoip: true, geoip-code: CN, ipcidr: [240.0.0.0/4] }
+  nameserver:
+    - 'tls://8.8.8.8:853#self'
+    - 'tls://1.1.1.1:853#self'
+  fallback:
+    - tls://8.8.8.8:853
+    - tls://1.1.1.1:853
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    geosite:
+      - gfw
+    ipcidr:
+      - 240.0.0.0/4
 {% if default(request.clash.dns, "") == "1" %}
 dns:
   enable: true
