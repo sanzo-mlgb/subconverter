@@ -13,7 +13,7 @@ dns:
   ipv6: false
   default-nameserver:
     - tls://223.5.5.5:853
-	- tls://120.53.53.53:853
+    - tls://120.53.53.53:853
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   use-hosts: true
