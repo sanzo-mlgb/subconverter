@@ -18,8 +18,8 @@ dns:
   fake-ip-range: 198.18.0.1/16
   use-hosts: true
   nameserver:
-    - 'tls://8.8.8.8:853#self'
-    - 'tls://1.1.1.1:853#self'
+    - 'tls://8.8.8.8:853#节点选择'
+    - 'tls://1.1.1.1:853#节点选择'
   fallback:
     - tls://8.8.8.8:853
     - tls://1.1.1.1:853
