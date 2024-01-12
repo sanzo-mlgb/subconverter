@@ -11,15 +11,17 @@ dns:
   enable: true
   prefer-h3: true
   ipv6: false
-  default-nameserver:
-    - tls://223.5.5.5:853
-    - tls://120.53.53.53:853
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   use-hosts: true
+  default-nameserver:
+    - tls://223.5.5.5:853
+    - tls://120.53.53.53:853
+  proxy-server-nameserver:
+    - tls://223.5.5.5:853
   nameserver:
-    - 'tls://8.8.8.8:853#🔰 节点选择'
-    - 'tls://1.1.1.1:853#🔰 节点选择'
+    - tls://8.8.8.8:853#🔰 节点选择
+    - tls://1.1.1.1:853#🔰 节点选择
   fallback:
     - tls://8.8.8.8:853
     - tls://1.1.1.1:853
