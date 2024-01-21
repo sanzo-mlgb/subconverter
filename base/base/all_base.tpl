@@ -20,8 +20,8 @@ dns:
   proxy-server-nameserver:
     - tls://223.5.5.5:853
   nameserver:
+    - tls://208.67.222.222:853
     - tls://1.1.1.1:853
-    - tls://9.9.9.10:853
   fallback:
     - tls://8.8.8.8:853
     - tls://1.1.1.1:853
