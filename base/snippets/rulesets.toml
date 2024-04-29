@@ -1,0 +1,51 @@
+[[rulesets]]
+group = "🌍 国外媒体"
+ruleset = "rules/gwmt.list"
+
+[[rulesets]]
+group = "🇨🇳 国内媒体"
+ruleset = "rules/gnmt.list"
+
+[[rulesets]]
+group = "📺 BILIBILI"
+ruleset = "rules/lhie1/Surge/Surge 3/Provider/Media/Bilibili.list"
+
+[[rulesets]]
+group = "🎮 Steam"
+ruleset = "rules/steam.list"
+
+[[rulesets]]
+group = "🤖 ChatGPT"
+ruleset = "rules/lhie1/Surge/Surge 3/Provider/ChatGPT.list"
+
+[[rulesets]]
+group = "🛑 全球拦截"
+ruleset = "rules/qqlj.list"
+
+[[rulesets]]
+group = "Ⓜ 微软服务"
+ruleset = "rules/ACL4SSR/Clash/Ruleset/Microsoft.list"
+
+[[rulesets]]
+group = "🍎 苹果服务"
+ruleset = "rules/DivineEngine/Surge/Ruleset/Extra/Apple/Apple.list"
+
+[[rulesets]]
+group = "📲 电报信息"
+ruleset = "rules/DivineEngine/Surge/Ruleset/Extra/Telegram/Telegram.list"
+
+[[rulesets]]
+group = "🎯 全球直连"
+ruleset = "rules/qqzl.list"
+
+[[rulesets]]
+group = "🎯 全球直连"
+ruleset = "[]GEOIP,CN"
+
+[[rulesets]]
+group = "🔰 节点选择"
+ruleset = "rules/jdxz.list"
+
+[[rulesets]]
+group = "🐟 漏网之鱼"
+ruleset = "[]FINAL"
