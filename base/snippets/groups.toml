@@ -1,64 +1,51 @@
-[[custom_groups]]
-name = "🔰 节点选择"
-type = "select"
-rule = [".*"]
+[[rulesets]]
+group = "🌍 国外媒体"
+ruleset = "rules/gwmt.list"
 
-[[custom_groups]]
-name = "🎥 NETFLIX"
-type = "select"
-rule = [".*"]
+[[rulesets]]
+group = "🇨🇳 国内媒体"
+ruleset = "rules/gnmt.list"
 
-[[custom_groups]]
-name = "📺 BILIBILI"
-type = "select"
-rule = ["[]🎯 全球直连","(台|hk|港|tw)",".*"]
+[[rulesets]]
+group = "📺 BILIBILI"
+ruleset = "rules/lhie1/Surge/Surge 3/Provider/Media/Bilibili.list"
 
-[[custom_groups]]
-name = "🎮 Steam"
-type = "select"
-rule = [".*"]
+[[rulesets]]
+group = "🎮 Steam"
+ruleset = "rules/steam.list"
 
-[[custom_groups]]
-name = "🤖 ChatGPT"
-type = "select"
-rule = [".*"]
+[[rulesets]]
+group = "🤖 ChatGPT"
+ruleset = "rules/lhie1/Surge/Surge 3/Provider/ChatGPT.list"
 
-[[custom_groups]]
-name = "🌍 国外媒体"
-type = "select"
-rule = [".*"]
+[[rulesets]]
+group = "🛑 全球拦截"
+ruleset = "rules/qqlj.list"
 
-[[custom_groups]]
-name = "🇨🇳 国内媒体"
-type = "select"
-rule = ["[]🎯 全球直连"]
+[[rulesets]]
+group = "Ⓜ 微软服务"
+ruleset = "rules/ACL4SSR/Clash/Ruleset/Microsoft.list"
 
-[[custom_groups]]
-name = "Ⓜ 微软服务"
-type = "select"
-rule = ["[]🎯 全球直连",".*"]
+[[rulesets]]
+group = "🍎 苹果服务"
+ruleset = "rules/DivineEngine/Surge/Ruleset/Extra/Apple/Apple.list"
 
-[[custom_groups]]
-name = "📲 电报信息"
-type = "select"
-rule = [".*"]
+[[rulesets]]
+group = "📲 电报信息"
+ruleset = "rules/DivineEngine/Surge/Ruleset/Extra/Telegram/Telegram.list"
 
-[[custom_groups]]
-name = "🍎 苹果服务"
-type = "select"
-rule = ["[]🎯 全球直连",".*"]
+[[rulesets]]
+group = "🎯 全球直连"
+ruleset = "rules/qqzl.list"
 
-[[custom_groups]]
-name = "🎯 全球直连"
-type = "select"
-rule = ["[]DIRECT"]
+[[rulesets]]
+group = "🎯 全球直连"
+ruleset = "[]GEOIP,CN"
 
-[[custom_groups]]
-name = "🛑 全球拦截"
-type = "select"
-rule = ["[]REJECT", "[]DIRECT"]
+[[rulesets]]
+group = "🔰 节点选择"
+ruleset = "rules/jdxz.list"
 
-[[custom_groups]]
-name = "🐟 漏网之鱼"
-type = "select"
-rule = [".*"]
+[[rulesets]]
+group = "🐟 漏网之鱼"
+ruleset = "[]FINAL"
